@@ -26,7 +26,7 @@
     
     - name: installing db dependancies 
       ansible.builtin.apt:
-        name: Python3-Py-MySQL
+        name: python3-pymysql
 
     - name: Start mariadb service
       ansible.builtin.service:
